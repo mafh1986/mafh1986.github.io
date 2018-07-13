@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<title>Examen M3</title>
+	<link rel="stylesheet" type="text/css" href="css/Estilo.css">
+	<script type="text/javascript" src="./JS/examen.js"></script>
+</head>
+<body>
+	<div id="central">
+		<div id="cabecera">
+			<img src="./Images/logo2.png">
+			<img src="./Images/logo.PNG" height="100px"> 
+		</div>
+		<h1>Formulario de Contrato</h1>
+		<form>
+			<h2>Nombre</h2>
+			<input type="text" id="nombre" placeholder="Nombre">
+			<br><br>
+			
+			<h2>DNI/NIE</h2>
+			<input type="text" id="dni" placeholder="DNI/NIE">
+			<br><br>
+			
+			<h2>Año de Nacimiento</h2>
+			<input type="number" id="nacimiento" placeholder="Año de Nacimiento"> 
+			<br><br>
+
+			<h2>Número de Teléfono</h2>
+			<input type="tel" id="telefono" placeholder="Número de Teléfono">
+			<br><br>
+
+			<h2>Email</h2>
+			<input type="email" id="email" placeholder="example@gmail.com">
+			<br><br>
+
+			<h2>Preferencia de Contacto</h2>
+			<input type="radio" name="preferencia" id="telef">Teléfono
+			<input type="radio" name="preferencia" id="mail">Email
+			<input type="radio" name="preferencia" id="correo">Correo Postal
+			<br><br>
+
+			<h2>Cursos (uno o varios)</h2>
+			<input type="checkbox" name="" id="html">HTML5. 300€.<br>
+			<input type="checkbox" name="" id="css">CSS3. 200€.<br>
+			<input type="checkbox" name="" id="introjava">Introducción a JavaScript. 500€.<br>
+			<input type="checkbox" name="" id="avanjava">JavaScript Avanzado. 400€.<br>
+			<input type="checkbox" name="" id="bootstrap">Bootstrap. 200€.<br>
+			<input type="checkbox" name="" id="jquery">jQuery. 300€.<br>
+			<input type="checkbox" name="" id="angular">Angular 5. 800€.
+			<br><br>
+			<input type="button" class="btn" value="Calcular" onclick="calcular()">
+			<br><br>
+		</form>
+
+		<span><h2 id="contrato"></h2></span>
+</div>
+</body>
+</html>

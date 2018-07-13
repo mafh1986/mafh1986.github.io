@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>PORTAL WEB RESTAURANTE</title>
+	<link rel="stylesheet" type="text/css" href="css/Estilo.css">
+	<script type="text/javascript">
+		function tienda(){
+			setTimeout(cargarImagen2,2000);
+		}
+		function cargarImagen2(){
+			var imagen = document.getElementById("tienda");
+			imagen.src="Images/8.jpg";
+			setTimeout(cargarImagen3,2000);
+		}
+		function cargarImagen3(){
+			var imagen = document.getElementById("tienda");
+			imagen.src="Images/9.jpg";
+			setTimeout(cargarImagen1,2000);
+		}
+		function cargarImagen1(){
+			var imagen = document.getElementById("tienda");
+			imagen.src="Images/7.jpg";
+			setTimeout(tienda,2000);
+		}
+	</script>
+	<style>
+		ul{
+			list-style-type: none;
+			width: 470px;
+			margin: auto;
+		}
+		li{
+			float: left;
+
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3e2c7+0,e9d4b3+48,e9d4b3+48,c19e67+100,b68d4c+100 */
+			background: #f3e2c7; /* Old browsers */
+			background: -moz-linear-gradient(top, #f3e2c7 0%, #e9d4b3 48%, #e9d4b3 48%, #c19e67 100%, #b68d4c 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top, #f3e2c7 0%,#e9d4b3 48%,#e9d4b3 48%,#c19e67 100%,#b68d4c 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom, #f3e2c7 0%,#e9d4b3 48%,#e9d4b3 48%,#c19e67 100%,#b68d4c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#b68d4c',GradientType=0 ); /* IE6-9 */
+			border-bottom: 0.2em dashed;
+			border-top: 0.2em dashed;
+			padding: 10px;
+		}
+		li:hover{
+			background-color: #F08080;
+			color: #FF0000;
+		}
+		a{
+			text-decoration: none;
+			color: #A52A2A;
+		}
+		#cabecera{
+			width: 50%;
+			margin: auto;
+		
+		}
+		#logo{
+			width: 100%;
+		}
+		#central{
+			margin: auto;
+		}
+		#creditos{
+			position: fixed;
+			width: 100%;
+			height: 40px;
+			bottom: 0px;
+			padding-top: 20px;
+			background-color: red;
+			color: white;
+			opacity: 0.5;
+
+		}
+		#galeria{
+			width: 560px;
+			margin: auto;
+		}
+
+	</style>
+</head>
+<body onload="tienda()">
+	<div id="central">
+		<div id="cabecera">
+			<a href="Index.html"><img id="logo" src="Images/logo.jpg"></a>
+		</div>
+			<ul>
+			<a href="Historia.html"><li id="historia"><strong>Historia</strong></li></a>
+			<a href="Productos.html"><li><strong>Productos</strong></li></a>
+			<a href="Tiendas.html"><li><strong>Tiendas</strong></li></a>
+			<a href="Franquicias.html"><li><strong>Franquicias</strong></li></a>
+			<a href="Contacto.html"><li id="contacto"><strong>Contacto</strong></li></a>		
+			</ul>
+	<center>
+		<div id="galeria">
+			<img id="tienda" src="Images/7.jpg" width="560" height="315">
+			
+		</div>
+		<iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16234808.457566561!2d-75.66112100389662!3d6.575036470192092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2853cb36cbd801%3A0xdca0f2587cd54dd3!2sVenezuela!5e0!3m2!1ses!2ses!4v1528806962187" width="560" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+		
+	</center>
+
+	<div id="creditos"><center>Website desarrollada por MAFH S.L.U (c) 2018</center></div>
+	</div>
+</body>
+</html>

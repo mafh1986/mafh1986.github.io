@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+    padding-top: 100px;
+}
+#control {
+    position: fixed;
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+#control img {
+    padding-top: 50px;
+    float: left; 
+    height: 25%;
+}
+.juego {
+    width: 33.3%;
+    float: left;
+    opacity: 0.5;
+}

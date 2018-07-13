@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora IMC</title>
+	<link rel="stylesheet" type="text/css" href="css/Estilo.css">
+	<script type="text/javascript" src="./js/Calculador.js"></script>
+</head>
+<body>
+	<div id="central">
+		<div id="cabecera">
+			<center>
+			<img src="Images/principal.png" height="250">
+			<img src="Images/imc.png" height="250">
+			<img src="Images/imc2.png" height="250">
+			</center>
+		</div>
+		<div id="contenido">
+			<h1>Calculadora de Índice de Masa Corporal</h1>
+			<hr>
+			<p>El sobrepeso puede causar la elevación de la concentración de colesterol total y de la presión arterial, y aumentar el riesgo de sufrir la enfermedad arterial coronaria. La obesidad aumenta las probabilidades de que se presenten otros factores de riesgo cardiovascular, en especial, presión arterial alta, colesterol elevado y diabetes.</p>
+			<p>El sobrepeso puede causar la elevación de la concentración de colesterol total y de la presión arterial, y aumentar el riesgo de sufrir la enfermedad arterial coronaria. La obesidad aumenta las probabilidades de que se presenten otros factores de riesgo cardiovascular, en especial, presión arterial alta, colesterol elevado y diabetes.
+
+			Una medida de la obesidad se determina mediante el índice de masa corporal (IMC), que se calcula dividiendo los kilogramos de peso por el cuadrado de la estatura en metros (IMC = peso [kg]/ estatura [m2]). Según el Instituto Nacional del Corazón, los Pulmones y la Sangre de los Estados Unidos (NHLBI), el sobrepeso se define como un IMC de más de 25. Se considera que una persona es obesa si su IMC es superior a 30. Usted puede determinar su IMC con la calculadora que se encuentra a continuación. Con la cifra del IMC puede averiguar su composición corporal en la tabla que aparece debajo de la calculadora.</p>
+			<br>
+			<center>
+				<img src="Images/imc3.png">
+			</center>
+			<form>
+				<center>
+				<h2>Para calcular su IMC, ingrese su estatura y peso a continuación.</h2>
+				<strong>Estatura (m)</strong>
+				<br><br>
+				<input type="number" id="estatura" class="box">
+				<br><br>
+				<strong>Peso (kg)</strong>
+				<br><br>
+				<input type="number" id="peso" class="box">
+				<br><br>
+				<input type="button" id="boton" value="Calcular" onclick="calcularIMC()" class="btn">
+				<br><br>
+				<strong>Resultado</strong>
+				<br><br>
+				<input type="number" id="resultado" disabled="true" class="box"><span id="mayoromenor"></span>
+				</center>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

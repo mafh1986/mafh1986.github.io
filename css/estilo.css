@@ -1,21 +1,10 @@
-body {
-    margin: 0px;
-    padding-top: 100px;
+#central{
+    background-image: url("../Images/fondo.jpg");
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
 }
-#control {
-    position: fixed;
-    top: 0px;
-    height: 100px;
-    width: 100%;
-    background-color: black;
-}
-#control img {
+div{
     padding-top: 50px;
-    float: left; 
-    height: 25%;
-}
-.juego {
-    width: 33.3%;
-    float: left;
-    opacity: 0.5;
 }

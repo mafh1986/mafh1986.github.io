@@ -1,0 +1,63 @@
+body{
+	background-image: url("../Images/fondo2.jpg");
+	background-size: cover;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+
+}
+
+
+
+#central{
+	background-image: url("../Images/fondo_ok.png");
+	width: 1200px;
+	height: 2200px;
+	background-size: cover;
+	margin: auto;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
+#contenido{
+	padding-top: 50px;
+}
+.btn {
+  background: #af78e6;
+  background-image: -webkit-linear-gradient(top, #af78e6, #3c2170);
+  background-image: -moz-linear-gradient(top, #af78e6, #3c2170);
+  background-image: -ms-linear-gradient(top, #af78e6, #3c2170);
+  background-image: -o-linear-gradient(top, #af78e6, #3c2170);
+  background-image: linear-gradient(to bottom, #af78e6, #3c2170);
+  -webkit-border-radius: 17;
+  -moz-border-radius: 17;
+  border-radius: 17px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 1px;
+  text-decoration: none;
+}
+
+
+.btn:hover {
+  background: #fc493c;
+  background-image: -webkit-linear-gradient(top, #fc493c, #b32020);
+  background-image: -moz-linear-gradient(top, #fc493c, #b32020);
+  background-image: -ms-linear-gradient(top, #fc493c, #b32020);
+  background-image: -o-linear-gradient(top, #fc493c, #b32020);
+  background-image: linear-gradient(to bottom, #fc493c, #b32020);
+  text-decoration: none;
+}
+.box{
+	resize: both;
+	overflow: auto;
+	min-width: 30px; /*suggest a min-width &amp; min-height*/
+	min-height: 30px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	text-align: center;
+	font-size: 20px;
+}

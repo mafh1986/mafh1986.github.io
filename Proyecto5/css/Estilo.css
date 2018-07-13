@@ -1,0 +1,163 @@
+body{
+	background-image: url("../Images/fondo.jpg");
+	margin-top: 0px;
+	height: 1000px;
+}
+#central{
+	background-image: url(../Images/fondo1.jpg);
+	width: 850px;
+	height: 1300px;
+}
+#historia{
+	border-left: 0.2em dashed;
+}
+#contacto{
+	border-right: 0.2em dashed;
+}
+#foto{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	box-shadow: 2px 2px 7px 1px #CE5937;
+}
+#jingle{
+	margin-bottom: 40px;
+	box-shadow: 2px 2px 7px 1px #CE5937;
+}
+#hist{
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	box-shadow: 2px 2px 7px 1px #CE5937;
+}
+#prod{
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	box-shadow: 2px 2px 7px 1px #CE5937;
+}
+#productos{
+	opacity: 0;
+	margin: auto;
+	margin-bottom: 40px;
+	box-shadow: 2px 2px 7px 1px #CE5937;
+	-webkit-transition: all 1s linear;
+	-moz-transition: all 1s linear;
+	-ms-transition: all 1s linear;
+	-o-transition: all 1s linear;
+	transition: all 1s linear;
+}
+#tienda{
+	margin: auto;
+	margin-top: 40px;
+	box-shadow: 2px 2px 7px 1px #CE5937;
+}
+#mapa{
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	box-shadow: 2px 2px 7px 1px #CE5937;
+}
+#franquicias{
+	border: 7px solid white;
+	padding-top: 40px;
+	width: 750px; 
+	margin: auto;
+	margin-top: 80px;
+	margin-bottom: 40px;
+	box-shadow: 2px 2px 7px 1px #CE5937;
+	padding-bottom: 40px;
+	height: 600px;
+	background-image: url("../Images/madera.jpg");
+	background-size: cover;
+}
+#centroI{
+	width: 45%;
+	padding-left: 40px;
+	float: left;
+	margin: auto;
+}
+#centroD{
+	width: 45%;
+	float: right;
+	margin: auto;
+}
+#cis{
+	margin: auto;
+	margin-bottom: 40px;
+	box-shadow: 2px 2px 7px 1px #CE5937;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	border: 3px solid #FFEBCD;
+}
+.btn {
+  background: #f52727;
+  background-image: -webkit-linear-gradient(top, #f52727, #521f1f);
+  background-image: -moz-linear-gradient(top, #f52727, #521f1f);
+  background-image: -ms-linear-gradient(top, #f52727, #521f1f);
+  background-image: -o-linear-gradient(top, #f52727, #521f1f);
+  background-image: linear-gradient(to bottom, #f52727, #521f1f);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  text-shadow: 0px 1px 3px #f27209;
+  -webkit-box-shadow: 0px 1px 3px #f25208;
+  -moz-box-shadow: 0px 1px 3px #f25208;
+  box-shadow: 0px 1px 3px #f25208;
+  font-family: Arial;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #8c1f1f 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #eb9375;
+  background-image: -webkit-linear-gradient(top, #eb9375, #d93434);
+  background-image: -moz-linear-gradient(top, #eb9375, #d93434);
+  background-image: -ms-linear-gradient(top, #eb9375, #d93434);
+  background-image: -o-linear-gradient(top, #eb9375, #d93434);
+  background-image: linear-gradient(to bottom, #eb9375, #d93434);
+  text-decoration: none;
+}
+#superior{
+	width: 700px;
+	height: 350px;
+	margin: auto;
+	background-image: url(../Images/12.png);
+	background-size: cover;
+	margin-top: 80px;
+	margin-bottom: 40px;
+	box-shadow: 2px 2px 7px 1px #CE5937;
+	padding-bottom: 40px;
+	border-bottom: 7px solid white;
+	padding-top: 70px;
+	padding-left: 40px;
+}
+#inferior{
+	width: 700px;
+	height: 350px;
+	margin: auto;
+	background-image: url(../Images/13.png);
+	background-size: cover;
+	margin-top: 80px;
+	margin-bottom: 40px;
+	box-shadow: 2px 2px 7px 1px #CE5937;
+	padding-bottom: 40px;
+	border-bottom: 7px solid white;
+	padding-top: 70px;
+	padding-left: 40px;
+}
+#redes{
+	width: 400px;
+	height: 200px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	box-shadow: 2px 2px 7px 1px #CE5937;
+	padding-bottom: 40px;
+	padding-top: 50px;
+	padding-left: 40px;
+}
+
+
